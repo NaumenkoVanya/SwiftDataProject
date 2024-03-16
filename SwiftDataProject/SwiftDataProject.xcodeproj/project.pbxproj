@@ -13,6 +13,7 @@
 		CA57924D2BA37ED300DEA549 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA57924C2BA37ED300DEA549 /* Preview Assets.xcassets */; };
 		CA5792542BA37FE200DEA549 /* EditingSwiftDataModelObjects .swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5792532BA37FE200DEA549 /* EditingSwiftDataModelObjects .swift */; };
 		CA5792562BA3804E00DEA549 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5792552BA3804E00DEA549 /* User.swift */; };
+		CA57925A2BA62E1B00DEA549 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5792592BA62E1B00DEA549 /* UsersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CA57924C2BA37ED300DEA549 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA5792532BA37FE200DEA549 /* EditingSwiftDataModelObjects .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditingSwiftDataModelObjects .swift"; sourceTree = "<group>"; };
 		CA5792552BA3804E00DEA549 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CA5792592BA62E1B00DEA549 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				CA5792452BA37ED100DEA549 /* SwiftDataProjectApp.swift */,
 				CA5792472BA37ED100DEA549 /* ContentView.swift */,
 				CA5792552BA3804E00DEA549 /* User.swift */,
+				CA5792592BA62E1B00DEA549 /* UsersView.swift */,
 				CA5792492BA37ED300DEA549 /* Assets.xcassets */,
 				CA57924B2BA37ED300DEA549 /* Preview Content */,
 				CA5792532BA37FE200DEA549 /* EditingSwiftDataModelObjects .swift */,
@@ -146,6 +149,7 @@
 				CA5792562BA3804E00DEA549 /* User.swift in Sources */,
 				CA5792542BA37FE200DEA549 /* EditingSwiftDataModelObjects .swift in Sources */,
 				CA5792482BA37ED100DEA549 /* ContentView.swift in Sources */,
+				CA57925A2BA62E1B00DEA549 /* UsersView.swift in Sources */,
 				CA5792462BA37ED100DEA549 /* SwiftDataProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
