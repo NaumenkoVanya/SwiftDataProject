@@ -26,6 +26,7 @@ struct UsersView: View {
                     .clipShape(.capsule)
             }
         }
+        .onAppear(perform: addSample)
     }
     
     init(minimumJoinDate: Date, sortOrder: [SortDescriptor<User>]) {

@@ -67,6 +67,10 @@ struct ContentView: View {
                     }
                 }
         }
+        Image("imageTest")
+            .resizable()
+            .ignoresSafeArea()
+            .scaledToFill()
     }
 }
 
