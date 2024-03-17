@@ -11,6 +11,10 @@
 		CA5792482BA37ED100DEA549 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5792472BA37ED100DEA549 /* ContentView.swift */; };
 		CA57924A2BA37ED300DEA549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5792492BA37ED300DEA549 /* Assets.xcassets */; };
 		CA57924D2BA37ED300DEA549 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA57924C2BA37ED300DEA549 /* Preview Assets.xcassets */; };
+		CA5792542BA37FE200DEA549 /* EditingSwiftDataModelObjects .swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5792532BA37FE200DEA549 /* EditingSwiftDataModelObjects .swift */; };
+		CA5792562BA3804E00DEA549 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5792552BA3804E00DEA549 /* User.swift */; };
+		CA57925A2BA62E1B00DEA549 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5792592BA62E1B00DEA549 /* UsersView.swift */; };
+		CA57925C2BA6E09000DEA549 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57925B2BA6E09000DEA549 /* Job.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		CA5792472BA37ED100DEA549 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA5792492BA37ED300DEA549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA57924C2BA37ED300DEA549 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA5792532BA37FE200DEA549 /* EditingSwiftDataModelObjects .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditingSwiftDataModelObjects .swift"; sourceTree = "<group>"; };
+		CA5792552BA3804E00DEA549 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CA5792592BA62E1B00DEA549 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		CA57925B2BA6E09000DEA549 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				CA5792452BA37ED100DEA549 /* SwiftDataProjectApp.swift */,
 				CA5792472BA37ED100DEA549 /* ContentView.swift */,
+				CA5792552BA3804E00DEA549 /* User.swift */,
+				CA57925B2BA6E09000DEA549 /* Job.swift */,
+				CA5792592BA62E1B00DEA549 /* UsersView.swift */,
 				CA5792492BA37ED300DEA549 /* Assets.xcassets */,
 				CA57924B2BA37ED300DEA549 /* Preview Content */,
+				CA5792532BA37FE200DEA549 /* EditingSwiftDataModelObjects .swift */,
 			);
 			path = SwiftDataProject;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA5792562BA3804E00DEA549 /* User.swift in Sources */,
+				CA57925C2BA6E09000DEA549 /* Job.swift in Sources */,
+				CA5792542BA37FE200DEA549 /* EditingSwiftDataModelObjects .swift in Sources */,
 				CA5792482BA37ED100DEA549 /* ContentView.swift in Sources */,
+				CA57925A2BA62E1B00DEA549 /* UsersView.swift in Sources */,
 				CA5792462BA37ED100DEA549 /* SwiftDataProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,12 +285,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftDataProject/SwiftDataProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataProject/Preview Content\"";
 				DEVELOPMENT_TEAM = VY6BU9F56X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftDataProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -298,12 +316,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftDataProject/SwiftDataProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataProject/Preview Content\"";
 				DEVELOPMENT_TEAM = VY6BU9F56X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftDataProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
