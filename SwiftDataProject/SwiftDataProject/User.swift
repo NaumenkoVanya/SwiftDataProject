@@ -10,10 +10,14 @@ import SwiftData
 
 @Model
 class User {
-    var name: String
-    var city: String
-    var joinDate: Date
-    @Relationship(deleteRule: .cascade) var jods = [Job]()
+    var name: String = "Anonymous"
+    var city: String = "Unknown"
+    var joinDate: Date = Date.now
+    @Relationship(deleteRule: .cascade) var jods: [Job]? = [Job]()
+    
+    var unwrappedJobs: [Job] {
+        jods ?? []
+    }
     
     init(name: String, city: String, joinDate: Date) {
         self.name = name
