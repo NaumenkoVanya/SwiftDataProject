@@ -14,6 +14,7 @@
 		CA5792542BA37FE200DEA549 /* EditingSwiftDataModelObjects .swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5792532BA37FE200DEA549 /* EditingSwiftDataModelObjects .swift */; };
 		CA5792562BA3804E00DEA549 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5792552BA3804E00DEA549 /* User.swift */; };
 		CA57925A2BA62E1B00DEA549 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5792592BA62E1B00DEA549 /* UsersView.swift */; };
+		CA57925C2BA6E09000DEA549 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57925B2BA6E09000DEA549 /* Job.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		CA5792532BA37FE200DEA549 /* EditingSwiftDataModelObjects .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditingSwiftDataModelObjects .swift"; sourceTree = "<group>"; };
 		CA5792552BA3804E00DEA549 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CA5792592BA62E1B00DEA549 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		CA57925B2BA6E09000DEA549 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CA5792452BA37ED100DEA549 /* SwiftDataProjectApp.swift */,
 				CA5792472BA37ED100DEA549 /* ContentView.swift */,
 				CA5792552BA3804E00DEA549 /* User.swift */,
+				CA57925B2BA6E09000DEA549 /* Job.swift */,
 				CA5792592BA62E1B00DEA549 /* UsersView.swift */,
 				CA5792492BA37ED300DEA549 /* Assets.xcassets */,
 				CA57924B2BA37ED300DEA549 /* Preview Content */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA5792562BA3804E00DEA549 /* User.swift in Sources */,
+				CA57925C2BA6E09000DEA549 /* Job.swift in Sources */,
 				CA5792542BA37FE200DEA549 /* EditingSwiftDataModelObjects .swift in Sources */,
 				CA5792482BA37ED100DEA549 /* ContentView.swift in Sources */,
 				CA57925A2BA62E1B00DEA549 /* UsersView.swift in Sources */,
